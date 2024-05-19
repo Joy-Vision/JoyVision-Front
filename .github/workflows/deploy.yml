@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "joy-vision-front"
-          entrypoint: "./server/index.ts"
+          entrypoint: "./server/index.mjs"
           root: "./.output"
