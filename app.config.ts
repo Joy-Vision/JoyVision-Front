@@ -6,6 +6,6 @@ export default defineConfig({
     plugins: [UnoCSS()],
   },
   server: {
-    preset: 'deno-server',
+    preset: 'deno-deploy',
   },
 });
